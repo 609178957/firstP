@@ -1,0 +1,143 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type:none;
+    
+}
+.s-daohan{
+    font-size: 15px;
+    height: 58px;
+    overflow: hidden; 
+    border-bottom: 1px solid #e2e2e2;
+}
+.s-daohan-left{
+    width: 541px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    float: left;
+}
+.s-daohan-left img{
+    float:right;
+    width: 40px;
+    height: 40px;
+    margin-top: 29px;
+    transform:translateY(-50%)
+}
+.s-daohan-left a{
+    float: right;
+    color: #21944b;
+    font-size: 14px;
+}
+.s-daohan-left span{
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #21944b;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0px 6px;
+    height: 20px;
+    margin-top: 29px;
+    transform: translateY(-50%);
+}
+.s-daohan-daohan{
+    float: left;
+}
+.s-daohan-daohan li{
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 29px;
+    transform: translateY(-50%);
+    padding: 0px 10px;
+    color: #000;
+}
+.s-daohan-daohan li a:hover{
+    color: #3ba8f0;
+}
+.s-daohan-shousuo{
+    float: left;
+    margin-top: 30px;
+    transform: translateY(-50%);
+    padding: 0px 30px;
+}
+.s-daohan-uer{
+    float: left;
+    margin-top: 30px;
+    transform: translateY(-50%);
+    line-height: 58px;
+    padding: 0px 50px;
+}
+.s-daohan-new{
+    float: left;
+    margin-top: 30px;
+    transform: translateY(-50%);
+    line-height: 58px;
+    padding: 0px 30px;
+    text-align: center;
+    background: url("./切图/images/红色_03.png") no-repeat;
+    background-position: center center;
+    color: #000;
+}
+
+.x-quan-geren{
+    width: 494px;
+    border-right: 1px solid black;
+    text-align: right;
+    float: left;
+}
+.x-quan-geren-geren{
+    float: bottom;
+    height: 75px;
+    margin-top: 25px;
+    padding-right:13px ;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.x-quan-geren-daohan li:hover{
+    background: #f4f5f5;
+    border-left: 1px solid #3ba8f0;
+}
+.x-quan-geren-daohan a{
+    color: #000;
+}
+.x-quan-geren-daohan a:hover{
+    color: #3ba8f0;
+}
+.x-quan-geren-daohan li{
+    float: bottom;
+    font-size: 12px;
+    height: 60px;
+    width: 240px;
+    margin-left: 252px;
+    text-align: center;
+    vertical-align: middle; 
+    padding-top: 30px;
+}
+.x-quan-geren-geren img{
+  
+}
+.x-quan-geren-geren a{
+    float: right;
+    text-align: center;
+    margin-top: 29px;
+    transform:translateY(-50%)
+
+}
+.x-quan-banji{
+    margin-left: 494px;
+}
+.x-quan-banji-word h2{
+    margin-top: 40px;
+}
+.x-quan-banji-word button{
+    margin-right: 255px;
+}
+.x-quan-banji-table{
+    position:absolute;
+}
